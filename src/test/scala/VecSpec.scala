@@ -9,5 +9,6 @@ class VecSpec extends Spec {
     } yield Vec(x, y)
   }
 
+  checkAll(equal.laws[Vec])
   checkAll(monoid.laws[Vec])
 }

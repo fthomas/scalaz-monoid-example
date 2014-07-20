@@ -1,11 +1,11 @@
 name := "scalaz-monoid-example"
 
-scalaVersion := "2.10.1"
+scalaVersion := "2.11.1"
 
 libraryDependencies ++= Seq(
-    "org.scalacheck" %% "scalacheck" % "1.10.1" % "test",
-    "org.scalaz" %% "scalaz-core" % "7.0.5",
-    "org.scalaz" %% "scalaz-scalacheck-binding" % "7.0.5" % "test",
-    "org.specs2" %% "specs2" % "1.12.3" % "test",
-    "org.typelevel" %% "scalaz-specs2" % "0.1.5" % "test"
+    "org.scalacheck" %% "scalacheck" % "1.11.4" % "test",
+    "org.scalaz" %% "scalaz-core" % "7.0.6",
+    "org.scalaz" %% "scalaz-scalacheck-binding" % "7.0.6" % "test",
+    "org.specs2" %% "specs2" % "2.3.13" % "test",
+    "org.typelevel" %% "scalaz-specs2" % "0.2" % "test"
 )
